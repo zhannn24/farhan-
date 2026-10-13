@@ -1,0 +1,115 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+color: #333;
+line-height: 1.6;
+background-color: #f8fafc;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #0f172a;
+padding: 15px 30px;
+color: white;
+}
+
+.logo{
+font-size: 20px;
+font-weight: bold;
+color: #38bdf8;
+}
+
+.nav-links a:hover{
+color: #38bdf8;
+}
+
+.hero {
+background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)),
+url('https://via.placeholder.com/1200x400?text=infrastruktur+Jaringan');
+background-size: cover;
+background-position: center;
+color: white;
+text-align: center;
+padding: 80px 20px;
+}
+
+.hero h1 {
+font-size: 32px;
+margin-bottom: 15px;
+}
+
+.hero p {
+font-size: 16px;
+max-width: 600px;
+margin: 0 auto 25px auto;
+color: #cbd5e1;
+}
+
+.btn-hero {
+display: inline-block;
+background-color: #0284c7;
+color: white;
+padding: 12px 25px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+
+.btn-hero:hover{
+background-color: #0369a1;
+}
+
+.services {
+padding: 50px 20px;
+text-align: center;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.services h2 {
+margin-bottom: 30px;
+color: #0f172a;
+}
+
+.service-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.service-box {
+background: white;
+padding: 25px;
+border-radius: 8px;
+flex: 1;
+min-width: 250px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+border: 1px solid #e2e8f0;
+}
+
+.service-box h3 {
+color: #0284c7;
+margin-bottom: 10px;
+}
+
+.service-box p {
+font-size: 14px;
+color: #64748b;
+}
+
+footer {
+border-color: #0f172a;
+color: #94a3b8;
+text-align: center;
+padding: 20px;
+font-size: 14px;
+}
